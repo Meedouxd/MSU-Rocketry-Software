@@ -1,6 +1,5 @@
-/*Author: Chase Morgan
+/*Author: Chase Morgan and Jeremiah Lowe
 This is Jeremiah's salus data decoder ported to java from python.
-Its not totally done but almost, DLE stuff needs to be handled.
 Possilbe TODO: Turn this into a library to be used in later projects.
  */
 import java.io.*;
