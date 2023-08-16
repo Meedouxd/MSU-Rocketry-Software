@@ -22,7 +22,7 @@ public class RocketDataPacketNewGPS {
         accZ = Float.parseFloat(unpacked_data_array[6]) * 0.01f;
         pressure = Float.parseFloat(unpacked_data_array[7]) * 0.01f;
         GPSNorth = (Float.parseFloat(unpacked_data_array[8]) * 0.0001f) + 38;
-        GPSWest = (Float.parseFloat(unpacked_data_array[9]) * 0.0001f) + 44;
+        GPSWest = (Float.parseFloat(unpacked_data_array[9]) * 0.0001f) + 84;
     }
     @Override public String toString() {
         return String.format("%.1f seconds: Gyro - [%.1f, %.1f, %.1f]°/s   Accel - [%.2f, %.2f, %.2f]m/s²   Pressure - %fPa", time, gyroX, gyroY, gyroZ, accX, accY, accZ, pressure);

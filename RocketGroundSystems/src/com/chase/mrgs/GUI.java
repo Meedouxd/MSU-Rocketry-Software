@@ -200,7 +200,7 @@ public class GUI extends JFrame implements ActionListener{
             GPSNorth = rpdngps.GPSNorth;
             GPSWest = rpdngps.GPSWest;
             //if the data is not ridiculous, updata graph gui and labels and save it to a .txt file
-            if(altitude > -1 && altitude < 8000){
+            if(altitude > 0 && altitude < 8000){
                 series.add(time, altitude);
                 updateLabels();
                 try {
